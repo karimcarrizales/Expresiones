@@ -31,3 +31,16 @@
 - Se verificó con `cargo test` que las 3 pruebas pasan correctamente: 3 pasadas y 0 fallidas.
 - Se actualizó `main` para mostrar el resultado de las tres funciones.
 
+
+### Paso 4: Verificación final
+
+Se realizó la verificación final con `cargo run` y `cargo test`.
+
+Salida final de `cargo test`:
+
+running 3 tests
+test tests::prueba_calcular_dano_critico ... ok
+test tests::prueba_calcular_dano_promedio ... ok
+test tests::prueba_calcular_oleadas ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
