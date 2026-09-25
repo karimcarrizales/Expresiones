@@ -15,3 +15,10 @@
 - Se agregó la prueba unitaria `prueba_calcular_oleadas`.
 - Se verificó con `cargo test` que la prueba pasa correctamente: 1 pasada y 0 fallidas.
 - Se actualizó `main` para mostrar el resultado de `calcular_oleadas(7, 2)`.
+
+### Paso 2: Prueba unitaria de calcular_dano_critico
+
+- Se implementó la función `calcular_dano_critico(dano_base, multiplicador)`.
+- Se agregó la prueba unitaria `prueba_calcular_dano_critico`.
+- Se verificó con `cargo test` que las 2 pruebas pasan correctamente: 2 pasadas y 0 fallidas.
+- Se actualizó `main` para mostrar el resultado de `calcular_dano_critico(100, 2.0)`.
